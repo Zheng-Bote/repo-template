@@ -12,6 +12,7 @@ Template for new repos
 **Table of Contents**
 
 - [Description](#description)
+- [Status](#status)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 <hr>
