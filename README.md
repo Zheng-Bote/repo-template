@@ -19,3 +19,6 @@ Template for new repos
 ## Description
 
 
+## Status
+
+[![Repo - create TOC of README](https://github.com/Zheng-Bote/repo-template/actions/workflows/repo-create_doctoc.yml/badge.svg)](https://github.com/Zheng-Bote/repo-template/actions/workflows/repo-create_doctoc.yml)
