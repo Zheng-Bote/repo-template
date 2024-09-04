@@ -43,12 +43,14 @@ jobs:
           echo "README.md has uncommitted changes"
           #exit 1
 
-        # https://github.com/ad-m/github-push-action
-      - name: Commit & Push
+      - name: commit and push
         if: steps.verify_changed_files.outputs.files_changed == 'true'
-        uses: Andro999b/push@v1.3
+        uses: github-actions-x/commit@v2.9
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: main
-          force: true
-          message: "appended by Github Actions"
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          push-branch: "main"
+          commit-message: "appended by Github Actions"
+          force-add: "true"
+          files: README.md
+          name: "github-actions[bot]"
+          email: "github-actions[bot]@users.noreply.github.com"
