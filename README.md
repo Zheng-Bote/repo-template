@@ -25,7 +25,7 @@
 ## Description
 
 ![GHA](https://img.shields.io/badge/Github-Action-black?logo=githubactions)
-![Node](https://img.shields.io/badge/Nodes-20-blue?logo=tsnode)
+![Node](https://img.shields.io/badge/Node-20-blue?logo=tsnode)
 
 description of this
 
@@ -101,6 +101,12 @@ used folder structure
 ## API Reference
 
 ### Parameters
+
+<!--(inputs-start)-->
+<!--(inputs-end)-->
+
+<!--(outputs-start)-->
+<!--(outputs-end)-->
 
 ```
     <rz-footer></rz-footer>
