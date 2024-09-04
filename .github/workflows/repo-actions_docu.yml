@@ -1,9 +1,9 @@
-name: Repo - Actions In/Out in README
+name: Repo - add Actions In/Out to README
 # description: Renders Markdown tables for inputs and outputs from actions.yml file.
 # README.md: ## Inputs ## Outputs
 # https://github.com/tj-actions/auto-doc
 
-run-name: render actions.yml Inputs/Outputs for README tables by ${{ github.actor }}
+run-name: render actions.yml Inputs/Outputs to README tables by ${{ github.actor }}
 
 on:
   push:
