@@ -3,7 +3,7 @@
 
 <p>Template for new Github repos</p>
 
-[Report Issue](https://github.com/Zheng-Bote/repo-template/issues)&nbsp;[Request Feature](https://github.com/Zheng-Bote/repo-template/pulls)
+[Report Issue](https://github.com/Zheng-Bote/repo-template/issues) [Request Feature](https://github.com/Zheng-Bote/repo-template/pulls)
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 [![Apache License](https://img.shields.io/badge/License-Apache_2.0-yellow.svg)](https://choosealicense.com/licenses/apache/)
@@ -16,10 +16,11 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**
 
-- [Description](#description)
-- [Status](#status)
+*   [Description](#description)
+*   [Status](#status)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 <hr>
 
 ## Description
@@ -31,8 +32,8 @@ description of this
 
 ### Features
 
-- [x] works as designed
-- [ ] no bugs
+*   \[x] works as designed
+*   \[ ] no bugs
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -59,6 +60,18 @@ bla bla
 ### folder structure
 
 <!-- readme-tree start -->
+
+    .
+    ├── .github
+    │   └── workflows
+    │       ├── repo-actions_docu.yml
+    │       ├── repo-create_doctoc.yml
+    │       └── repo-create_tree_readme.yml
+    ├── README.md
+    └── tree.bak
+
+    2 directories, 5 files
+
 <!-- readme-tree end -->
 
 <hr>
@@ -107,30 +120,29 @@ used folder structure (old)
 ### Parameters
 
 <!-- onöly for actions repo-->
+
 <!-- ## Inputs -->
 
 <!-- ## Outputs -->
 
-```
-    <rz-footer></rz-footer>
-```
+        <rz-footer></rz-footer>
 
-```
-    <rz-footer
-      name="ZHENG Robert"
-      created="2016"
-      version="v0.1.0"
-      link_left="/contact.html"
-      link_right="/legal-notice.html"
-    >
-    </rz-footer>
-```
+<!---->
+
+        <rz-footer
+          name="ZHENG Robert"
+          created="2016"
+          version="v0.1.0"
+          link_left="/contact.html"
+          link_right="/legal-notice.html"
+        >
+        </rz-footer>
 
 | Parameter    | Type     | Description                             |
 | :----------- | :------- | :-------------------------------------- |
 | `name`       | `string` | **Optional**. name-of-copyright-holder  |
 | `created`    | `string` | **Optional**. <YYYY>                    |
-| `version`    | `string` | **Optional**. <v0.0.0>                  |
+| `version`    | `string` | **Optional**. \<v0.0.0>                  |
 | `link_left`  | `string` | **Optional**. link-to-contact-page      |
 | `link_right` | `string` | **Optional**. link-to-legal-notice-page |
 
@@ -148,21 +160,21 @@ graph TD;
 
 [![Documentation](https://img.shields.io/badge/GH-Pages-grey?logo=githubpages)](https://linktodocumentation)
 
-see also: [https://linktodocumentation](https://linktodocumentation)
+see also: <https://linktodocumentation>
 
-> [!NOTE]
+> \[!NOTE]
 > Useful information that users should know, even when skimming content.
 
-> [!TIP]
+> \[!TIP]
 > Helpful advice for doing things better or more easily.
 
-> [!IMPORTANT]
+> \[!IMPORTANT]
 > Key information users need to know to achieve their goal.
 
-> [!WARNING]
+> \[!WARNING]
 > Urgent info that needs immediate user attention to avoid problems.
 
-> [!CAUTION]
+> \[!CAUTION]
 > Advises about risks or negative outcomes of certain actions.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -179,7 +191,7 @@ see also: [https://linktodocumentation](https://linktodocumentation)
 
 #### Apache 2.0
 
-Copyright [yyyy] [name of copyright owner]
+Copyright \[yyyy] \[name of copyright owner]
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -197,7 +209,7 @@ limitations under the License.
 
 MIT License
 
-Copyright (c) [year] [fullname]
+Copyright (c) \[year] \[fullname]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -221,7 +233,7 @@ SOFTWARE.
 
 ### Authors
 
-- [![Zheng Robert](https://img.shields.io/badge/Github-Zheng_Robert-black?logo=github)](https://www.github.com/Zheng-Bote)
+*   [![Zheng Robert](https://img.shields.io/badge/Github-Zheng_Robert-black?logo=github)](https://www.github.com/Zheng-Bote)
 
 ### Code Contributors
 
@@ -231,6 +243,6 @@ SOFTWARE.
 
 <hr>
 
-:vulcan_salute:
+:vulcan\_salute:
 
 <p align="right">(<a href="#top">back to top</a>)</p>
