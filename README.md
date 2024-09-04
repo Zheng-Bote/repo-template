@@ -45,6 +45,8 @@ description of this
 ![GitHub Issues](https://img.shields.io/github/issues/Zheng-Bote/repo-template)
 ![GitHub Pull Requests](https://img.shields.io/github/issues-pr/Zheng-Bote/repo-template)
 
+[![Repo - create Repo-Tree in README.md](https://github.com/Zheng-Bote/repo-template/actions/workflows/repo-create_tree_readme.yml/badge.svg)](https://github.com/Zheng-Bote/repo-template/actions/workflows/repo-create_tree_readme.yml)
+[![Repo - add Actions In/Out to README](https://github.com/Zheng-Bote/repo-template/actions/workflows/repo-actions_docu.yml/badge.svg)](https://github.com/Zheng-Bote/repo-template/actions/workflows/repo-actions_docu.yml)
 [![Repo - create TOC of README](https://github.com/Zheng-Bote/repo-template/actions/workflows/repo-create_doctoc.yml/badge.svg)](https://github.com/Zheng-Bote/repo-template/actions/workflows/repo-create_doctoc.yml)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
