@@ -6,6 +6,7 @@ name: Repo - Tree README.md
 run-name: create TREE structure in README by ${{ github.actor }}
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
