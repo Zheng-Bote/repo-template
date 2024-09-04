@@ -102,11 +102,10 @@ used folder structure
 
 ### Parameters
 
-<!--(inputs-start)-->
-<!--(inputs-end)-->
+<!-- onöly for actions repo-->
+<!-- ## Inputs -->
 
-<!--(outputs-start)-->
-<!--(outputs-end)-->
+<!-- ## Outputs -->
 
 ```
     <rz-footer></rz-footer>
