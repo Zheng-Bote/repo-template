@@ -131,13 +131,13 @@ used folder structure
 
 ```mermaid
 graph TD;
-    Workflow. parameter .->Callable_Workflow;
+    Workflow-. parameter .->Callable_Workflow;
     Callable_Workflow-- parameter -->Action;
 ```
 
 ### Github Page
 
-[![Documentation](https://img.shields.io/badge/Github-Documentation-grey?logo=githubpages)](https://linktodocumentation)
+[![Documentation](https://img.shields.io/badge/GH-Pages-grey?logo=githubpages)](https://linktodocumentation)
 
 see also: [https://linktodocumentation](https://linktodocumentation)
 
