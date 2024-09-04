@@ -61,6 +61,7 @@ bla bla
 <!-- readme-tree start -->
 <!-- readme-tree end -->
 
+<hr>
 used folder structure (old)
 
 ```bash
