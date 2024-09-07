@@ -80,18 +80,18 @@ bla bla
 ### folder structure
 
 <!-- readme-tree start -->
+```
+.
+├── .github
+│   └── workflows
+│       ├── repo-actions_docu.yml
+│       ├── repo-create_doctoc.yml
+│       └── repo-create_tree_readme.yml
+├── README.md
+└── tree.bak
 
-    .
-    ├── .github
-    │   └── workflows
-    │       ├── repo-actions_docu.yml
-    │       ├── repo-create_doctoc.yml
-    │       └── repo-create_tree_readme.yml
-    ├── README.md
-    └── tree.bak
-
-    2 directories, 5 files
-
+2 directories, 5 files
+```
 <!-- readme-tree end -->
 
 <p align="right">(<a href="#top">back to top</a>)</p>
