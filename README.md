@@ -12,8 +12,10 @@
 </div>
 
 <hr>
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
 **Table of Contents**
 
 - [Description](#description)
@@ -48,8 +50,8 @@ description of this
 
 ### Features
 
-*   \[x] works as designed
-*   \[ ] no bugs
+- \[x] works as designed
+- \[ ] no bugs
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -160,7 +162,7 @@ used folder structure (old)
 | :----------- | :------- | :-------------------------------------- |
 | `name`       | `string` | **Optional**. name-of-copyright-holder  |
 | `created`    | `string` | **Optional**. <YYYY>                    |
-| `version`    | `string` | **Optional**. \<v0.0.0>                  |
+| `version`    | `string` | **Optional**. \<v0.0.0>                 |
 | `link_left`  | `string` | **Optional**. link-to-contact-page      |
 | `link_right` | `string` | **Optional**. link-to-legal-notice-page |
 
@@ -251,7 +253,7 @@ SOFTWARE.
 
 ### Authors
 
-*   [![Zheng Robert](https://img.shields.io/badge/Github-Zheng_Robert-black?logo=github)](https://www.github.com/Zheng-Bote)
+- [![Zheng Robert](https://img.shields.io/badge/Github-Zheng_Robert-black?logo=github)](https://www.github.com/Zheng-Bote)
 
 ### Code Contributors
 
@@ -261,6 +263,6 @@ SOFTWARE.
 
 <hr>
 
-:vulcan\_salute:
+:vulcan_salute:
 
 <p align="right">(<a href="#top">back to top</a>)</p>
