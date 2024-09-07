@@ -34,7 +34,7 @@
     - [Apache 2.0](#apache-20)
     - [MIT](#mit)
   - [Authors](#authors)
-  - [Code Contributors](#code-contributors)
+- [Code Contributors](#code-contributors)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
