@@ -218,7 +218,7 @@ SOFTWARE.
 
 ## Code Contributors
 
-![Contributors](https://img.shields.io/github/contributors/Zheng-Bote/gha-next-semvers?color=dark-green)
+![Contributors](https://img.shields.io/github/contributors/Zheng-Bote/repo-template?color=dark-green)
 
 [![Zheng Robert](https://img.shields.io/badge/Github-Zheng_Robert-black?logo=github)](https://www.github.com/Zheng-Bote)
 
