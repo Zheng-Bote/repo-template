@@ -2,6 +2,7 @@ name: Repo - add Actions In/Out to README
 # description: Renders Markdown tables for inputs and outputs from actions.yml file.
 # README.md: ## Inputs ## Outputs
 # https://github.com/tj-actions/auto-doc
+# author: Zheng-Bote
 
 run-name: render actions.yml Inputs/Outputs to README tables by ${{ github.actor }}
 
