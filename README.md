@@ -216,11 +216,11 @@ SOFTWARE.
 
 - [![Zheng Robert](https://img.shields.io/badge/Github-Zheng_Robert-black?logo=github)](https://www.github.com/Zheng-Bote)
 
-### Code Contributors
+## Code Contributors
 
-![Contributors](https://img.shields.io/github/contributors/Zheng-Bote/repo-template?color=dark-green)
+![Contributors](https://img.shields.io/github/contributors/Zheng-Bote/gha-next-semvers?color=dark-green)
 
-[Zheng-Bote](https://www.github.com/Zheng-Bote)
+[![Zheng Robert](https://img.shields.io/badge/Github-Zheng_Robert-black?logo=github)](https://www.github.com/Zheng-Bote)
 
 <hr>
 
