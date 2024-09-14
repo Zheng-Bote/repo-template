@@ -197,7 +197,11 @@ block-beta
       id2[["actions"]]
     end
   end
-  A["docs (only text)"] dist src
+  docs dist src
+  block:group3:4
+    %% columns auto (default)
+    gh-pages gh-wiki
+  end
 ```
 
 <hr>
