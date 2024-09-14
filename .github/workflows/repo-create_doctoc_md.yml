@@ -42,10 +42,11 @@ jobs:
       - name: Verify Changed files
         uses: tj-actions/verify-changed-files@v20
         id: verify_changed_files
-        with:
-          files: |
-            *.md
-            **/*.{md}
+        # ToDo
+        #with:
+        #  files: |
+        #    *.md
+        #    **/*.{md}
 
       - name: Markdown files changed
         if: steps.verify_changed_files.outputs.files_changed == 'false'
