@@ -177,9 +177,9 @@ see also: <https://linktodocumentation>
 ## Architecture / Deployment-View
 
 ```mermaid
-graph TD;
-    A(Workflow)-. parameter .->B(Callable_Workflow);
-    B-- parameter -->C(Action);
+flowchart TD;
+    A(Workflow)-. parameter .->B(Callable_Workflow)
+    B-- parameter -->C(Action)
     C-->D[README|Markdown files];
 ```
 
