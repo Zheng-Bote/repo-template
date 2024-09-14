@@ -201,7 +201,7 @@ block-beta
 ```mermaid
 block-beta
   columns 4
-  Repo:3
+  Repo:4
   block:group1:2
     columns 2
     id1[".github"]
