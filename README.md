@@ -188,10 +188,10 @@ see also: <https://linktodocumentation>
 block-beta
   columns 4
   Repo:4
-  block:group1:2
+  block:group1:1
     columns 1
     github
-    block:group2:2
+    block:group2:1
       columns 1
       id1[["actions"]]
       id2[["workflows"]]
