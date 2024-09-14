@@ -14,10 +14,11 @@
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
 **Table of Contents**
 
 - [Description](#description)
-    - [Features](#features)
+  - [Features](#features)
   - [Status](#status)
     - [Repo](#repo)
     - [Readme](#readme)
@@ -102,6 +103,7 @@ bla bla
 ## folder structure
 
 <!-- readme-tree start -->
+
 ```
 .
 ├── .github
@@ -129,6 +131,7 @@ bla bla
 
 5 directories, 17 files
 ```
+
 <!-- readme-tree end -->
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -181,7 +184,7 @@ see also: <https://linktodocumentation>
 flowchart TD;
     A(Workflow)-. parameter .->B(Callable_Workflow)
     B-- parameter -->C(Action)
-    C-->D[README|Markdown files];
+    C-->D[Markdown files];
 ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
