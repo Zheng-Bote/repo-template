@@ -186,8 +186,8 @@ see also: <https://linktodocumentation>
 ```mermaid
 block-beta
   columns 4
-  Repo:2
-  block:Structure:1
+  Repo:4
+  block:Structure:2
     column 4
     id1[[".github Actions / Workflows"]]
     block:group1:1
