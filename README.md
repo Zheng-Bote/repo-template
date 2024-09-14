@@ -114,6 +114,7 @@ bla bla ... with a little help from my friends
 ├── .github
 │   ├── actions
 │   │   └── doctoc
+│   │       ├── README.md
 │   │       ├── action.yml
 │   │       └── dist
 │   │           ├── index.js
@@ -134,7 +135,7 @@ bla bla ... with a little help from my friends
 ├── README.md
 └── tree.bak
 
-5 directories, 17 files
+5 directories, 18 files
 ```
 <!-- readme-tree end -->
 
