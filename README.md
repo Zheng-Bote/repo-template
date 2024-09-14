@@ -187,6 +187,15 @@ see also: <https://linktodocumentation>
 
 ## Architecture
 
+### DevOps
+
+```mermaid
+pie title me
+         "ideas" : 666
+         "time" : 10
+         "money" : 5
+```
+
 ### Github
 
 #### Github Repo
@@ -230,9 +239,9 @@ architecture-beta
     group api(cloud)[API]
 
     service db(database)[Database] in api
-    service server0(server)[Web] in api
+    service server0(server)[Webserver] in api
     service disk2(disk)[Storage] in api
-    service server(server)[Server] in api
+    service server(server)[Applicationserver] in api
 
     db:L -- R:server
     server0:T -- B:server
