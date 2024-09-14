@@ -241,7 +241,7 @@ architecture-beta
     service db(database)[Database] in api
     service server0(server)[Webserver] in api
     service disk2(disk)[Storage] in api
-    service server(server)[Applicationserver] in api
+    service server(server)[Appl-Server] in api
 
     db:L -- R:server
     server0:T -- B:server
@@ -257,6 +257,8 @@ architecture-beta
 ## Github Wiki
 
 [![GH-Wiki](https://img.shields.io/badge/Github-Wiki-black?logo=github)](https://www.github.com/Zheng-Bote)
+
+## Comments
 
 > \[!NOTE]
 > Useful information that users should know, even when skimming content.
