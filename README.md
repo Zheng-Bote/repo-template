@@ -14,10 +14,11 @@
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
 **Table of Contents**
 
 - [Description](#description)
-    - [Features](#features)
+  - [Features](#features)
   - [Status](#status)
     - [Repo](#repo)
     - [Readme](#readme)
@@ -104,6 +105,7 @@ bla bla ... with a little help from my friends
 ## folder structure
 
 <!-- readme-tree start -->
+
 ```
 .
 ├── .github
@@ -131,6 +133,7 @@ bla bla ... with a little help from my friends
 
 5 directories, 17 files
 ```
+
 <!-- readme-tree end -->
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -179,7 +182,11 @@ _Inputs/Outputs will be filled automatically by `.github/workflows/repo-actions_
 
 see also: <https://linktodocumentation>
 
-## Architecture / Deployment-View
+## Architecture
+
+### Github
+
+#### Github Repo
 
 ```mermaid
 block-beta
@@ -201,24 +208,7 @@ block-beta
   end
 ```
 
-<hr>
-
-```mermaid
-block-beta
-  columns 4
-  Repo:4
-  block:group1:2
-    columns 2
-    id1[".github"]
-    block:group2:1
-      columns 2
-      actions workflow
-    end
-  end
-  docs dist src
-```
-
-### Github Actions / Workflows
+#### Github Actions / Workflows
 
 ```mermaid
 flowchart TD;
@@ -228,6 +218,22 @@ flowchart TD;
     C-- parameter -->E[Action]
     D-->F(README)
     E-->G(Markdown files);
+```
+
+## Application
+
+```mermaid
+architecture-beta
+    group api(logos:aws-lambda)[API]
+
+    service db(logos:aws-aurora)[Database] in api
+    service disk1(logos:aws-glacier)[Storage] in api
+    service disk2(logos:aws-s3)[Storage] in api
+    service server(logos:aws-ec2)[Server] in api
+
+    db:L -- R:server
+    disk1:T -- B:server
+    disk2:T -- B:server
 ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
