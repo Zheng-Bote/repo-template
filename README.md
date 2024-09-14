@@ -188,7 +188,7 @@ block-beta
   columns 1
   Repo
   block:Structure
-    id1[[".github Actions/Workflows"]]
+    id1[["github Actions Workflows"]]
     id2[docs]
     id3[dist]
     id4[src]
