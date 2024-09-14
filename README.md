@@ -194,11 +194,11 @@ block-beta
       columns 2
       actions workflow
     end
-    id2["docs"]
-    id3["dist"]
-    id4["src"]
   end
+  docs dist src
 ```
+
+### Github Actions / Workflows
 
 ```mermaid
 flowchart TD;
