@@ -33,11 +33,11 @@
   - [Parameters](#parameters)
 - [Documentation](#documentation)
   - [Architecture](#architecture)
-    - [DevOps](#devops)
     - [Github](#github)
       - [Github Repo](#github-repo)
       - [Github Actions / Workflows](#github-actions--workflows)
   - [Application](#application)
+  - [DevOps](#devops)
   - [Github Page](#github-page)
   - [Github Wiki](#github-wiki)
   - [Comments](#comments)
@@ -116,6 +116,7 @@ bla bla ... with a little help from my friends
 ├── .github
 │   ├── actions
 │   │   └── doctoc
+│   │       ├── README.md
 │   │       ├── action.yml
 │   │       └── dist
 │   │           ├── index.js
@@ -136,7 +137,7 @@ bla bla ... with a little help from my friends
 ├── README.md
 └── tree.bak
 
-5 directories, 17 files
+5 directories, 18 files
 ```
 
 <!-- readme-tree end -->
