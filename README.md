@@ -14,6 +14,7 @@
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
 **Table of Contents**
 
 - [Description](#description)
@@ -38,7 +39,7 @@
 
 <hr>
 
-## Description
+# Description
 
 ![GHA](https://img.shields.io/badge/Github-Action-black?logo=githubactions)
 ![Node](https://img.shields.io/badge/Node-20-blue?logo=tsnode)
@@ -66,17 +67,18 @@ description of this
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-## Installation
+# Installation
 
 bla bla
 
-### Dependencies
+## Dependencies
 
 bla bla
 
-### folder structure
+## folder structure
 
 <!-- readme-tree start -->
+
 ```
 .
 ├── .github
@@ -93,6 +95,7 @@ bla bla
 
 2 directories, 9 files
 ```
+
 <!-- readme-tree end -->
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -105,19 +108,17 @@ bla bla
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-## API Reference
+# API Reference
 
-### Parameters
+![GHA](https://img.shields.io/badge/Github-Action-black?logo=githubactions)
 
-<!-- only for actions repo -->
+## Inputs
 
-<!-- ## Inputs -->
+## Outputs
 
-<!-- ## Outputs -->
+## Parameters
 
-        <rz-footer></rz-footer>
-
-<!---->
+**Workflow**
 
 | Parameter    | Type     | Description                          |
 | :----------- | :------- | :----------------------------------- |
@@ -129,7 +130,11 @@ bla bla
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-## Documentation
+# Documentation
+
+see also: <https://linktodocumentation>
+
+## Architecture / Deployment-View
 
 ```mermaid
 graph TD;
@@ -137,11 +142,13 @@ graph TD;
     Callable_Workflow-- parameter -->Action;
 ```
 
-### Github Page
+## Github Page
 
 [![GH-Page](https://img.shields.io/badge/Github-Pages-black?logo=github)](https://www.github.com/Zheng-Bote)
 
-see also: <https://linktodocumentation>
+## Github Wiki
+
+[![GH-Wiki](https://img.shields.io/badge/Github-Wiki-black?logo=github)](https://www.github.com/Zheng-Bote)
 
 > \[!NOTE]
 > Useful information that users should know, even when skimming content.
@@ -166,11 +173,13 @@ see also: <https://linktodocumentation>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-## Authors and License
+# Authors and License
 
-### License
+## License
 
-#### MIT
+_other licenses see files `LICENSE_<name>`\_
+
+### MIT License
 
 **This Repo-Template is using the MIT-License**
 
@@ -198,11 +207,23 @@ SOFTWARE.
 
         https://choosealicense.com/licenses/mit/
 
-### Authors
+### Apache License
+
+Apache License, Version 2.0
+
+Copyright (c) \[year] \[fullname]
+
+The 2.0 version of the Apache License, approved by the ASF in 2004, helps us achieve our goal of providing reliable and long-lived software products through collaborative, open-source software development.
+
+All packages produced by the ASF are implicitly licensed under the Apache License, Version 2.0, unless otherwise explicitly stated.
+
+        https://www.apache.org/licenses/LICENSE-2.0
+
+## Authors
 
 - [![Zheng Robert](https://img.shields.io/badge/Github-Zheng_Robert-black?logo=github)](https://www.github.com/Zheng-Bote)
 
-## Code Contributors
+### Code Contributors
 
 ![Contributors](https://img.shields.io/github/contributors/Zheng-Bote/repo-template?color=dark-green)
 
