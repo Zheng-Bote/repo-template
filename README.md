@@ -44,16 +44,19 @@
 ![GHA](https://img.shields.io/badge/Github-Action-black?logo=githubactions)
 ![Node](https://img.shields.io/badge/Node-20-blue?logo=tsnode)
 
-description of this
+Repo template with README-template and some Github workflows and Github actions.
 
 ### Features
 
 - \[x] works as designed
 - \[ ] no bugs
+- \[X] MIT license
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Status
+
+### Repo
 
 ![Status](https://img.shields.io/badge/Status-works-green)
 ![GitHub Release Date](https://img.shields.io/github/release-date/Zheng-Bote/repo-template)
@@ -61,9 +64,23 @@ description of this
 ![GitHub Issues](https://img.shields.io/github/issues/Zheng-Bote/repo-template)
 ![GitHub Pull Requests](https://img.shields.io/github/issues-pr/Zheng-Bote/repo-template)
 
+### Readme
+
 [![Repo - create Repo-Tree in README.md](https://github.com/Zheng-Bote/repo-template/actions/workflows/repo-create_tree_readme.yml/badge.svg)](https://github.com/Zheng-Bote/repo-template/actions/workflows/repo-create_tree_readme.yml)
 [![Repo - add Actions In/Out to README](https://github.com/Zheng-Bote/repo-template/actions/workflows/repo-actions_docu.yml/badge.svg)](https://github.com/Zheng-Bote/repo-template/actions/workflows/repo-actions_docu.yml)
-[![Repo - create TOC of README](https://github.com/Zheng-Bote/repo-template/actions/workflows/repo-create_doctoc.yml/badge.svg)](https://github.com/Zheng-Bote/repo-template/actions/workflows/repo-create_doctoc.yml)
+
+[![Repo - update Readme](https://github.com/Zheng-Bote/repo-template/actions/workflows/repo-call_Readme.yml/badge.svg)](https://github.com/Zheng-Bote/repo-template/actions/workflows/repo-call_Readme.yml)
+
+### Markdown files
+
+create ToC in Markdown files in folders
+
+- .github/actions/\*\*
+- .github/workflows/\*\*
+- dist/\*\*
+- docs/\*\*
+
+[![Repo - create TOC of Markdown files](https://github.com/Zheng-Bote/repo-template/actions/workflows/repo-create_doctoc_md.yml/badge.svg)](https://github.com/Zheng-Bote/repo-template/actions/workflows/repo-create_doctoc_md.yml)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
