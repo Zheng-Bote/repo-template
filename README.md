@@ -14,10 +14,11 @@
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
 **Table of Contents**
 
 - [Description](#description)
-    - [Features](#features)
+  - [Features](#features)
   - [Status](#status)
     - [Repo](#repo)
     - [Readme](#readme)
@@ -107,6 +108,7 @@ bla bla ... with a little help from my friends
 ## folder structure
 
 <!-- readme-tree start -->
+
 ```
 .
 ├── .github
@@ -134,6 +136,7 @@ bla bla ... with a little help from my friends
 
 5 directories, 17 files
 ```
+
 <!-- readme-tree end -->
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -224,12 +227,12 @@ flowchart TD;
 
 ```mermaid
 architecture-beta
-    group api(logos:aws-lambda)[API]
+    group api(cloud)[API]
 
-    service db(logos:aws-aurora)[Database] in api
-    service server0(logos:aws-glacier)[Web] in api
-    service disk2(logos:aws-s3)[Storage] in api
-    service server(logos:aws-ec2)[Server] in api
+    service db(database)[Database] in api
+    service server0(server)[Web] in api
+    service disk2(disk)[Storage] in api
+    service server(server)[Server] in api
 
     db:L -- R:server
     server0:T -- B:server
