@@ -1,27 +1,33 @@
-name: Repo - create Repo-Tree in README.md
-# description: document file-strcuture of repo
-# README.md: <!-- readme-tree start --><!-- readme-tree end -->
-# https://github.com/RavelloH/readme-tree
+name: Repo - create TOC of Markdown files
+# description: https://github.com/thlorenz/doctoc
 
-run-name: create Repo-Tree structure in README by ${{ github.actor }}
+# README.md:
+# <!-- DOCTOC SKIP -->    // skip this file
+# <!-- START doctoc -->   // fix position of TOC; otherwise on top of markdown file
+# <!-- END doctoc -->     // end of ToC area
+
+run-name: create README table of contents by ${{ github.actor }}
 
 on:
   workflow_dispatch:
   workflow_call:
   #push:
   #  branches:
-  #    - main
+  #    - "main"
   #  paths:
+  #    - "README.md"
   #    - "dist/**"
   #    - "docs/**"
-  #    - ".github/**"
+  #    - ".github/actions/**"
+  #    - ".github/workflows/**"
 
 permissions:
   checks: write
   contents: write
 
 jobs:
-  sync-assets:
+  generateTOC:
+    name: TOC Generator
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -29,20 +35,22 @@ jobs:
           fetch-depth: 0
           ref: "main"
 
-      - name: Tree
-        uses: RavelloH/readme-tree@v1.1.0
+      - uses: ./.github/actions/doctoc
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Verify Changed files
         uses: tj-actions/verify-changed-files@v20
         id: verify_changed_files
         with:
           files: |
-            README.md
+            *.md
+            **/*.{md}
 
-      - name: README.md changed
+      - name: Markdown files changed
         if: steps.verify_changed_files.outputs.files_changed == 'false'
         run: |
-          echo "README.md has no uncommitted changes"
+          echo "no uncommitted changes"
           exit 1
 
       - name: commit and push
@@ -53,6 +61,6 @@ jobs:
           push-branch: "main"
           commit-message: "appended by Github Actions"
           force-add: "true"
-          files: README.md
+          #files: README.md
           name: "github-actions[bot]"
           email: "github-actions[bot]@users.noreply.github.com"
