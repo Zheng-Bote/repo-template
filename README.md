@@ -188,6 +188,7 @@ block-beta
   columns 4
   Repo:2
   [.github Actions/Workflows] docs dist src
+end
 ```
 
 ```mermaid
