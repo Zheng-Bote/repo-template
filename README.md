@@ -187,7 +187,7 @@ see also: <https://linktodocumentation>
 block-beta
   columns 4
   Repo:2
-  id1[[.github Actions/Workflows]] docs dist src
+  id1[[".github Actions/Workflows"]] id2[docs] id3[dist] id4[src]
 end
 ```
 
