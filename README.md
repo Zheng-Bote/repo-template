@@ -189,15 +189,6 @@ see also: <https://linktodocumentation>
 
 ## Architecture
 
-### DevOps
-
-```mermaid
-pie title me
-         "ideas" : 90
-         "time for realizations" : 7
-         "money for realizations" : 3
-```
-
 ### Github
 
 #### Github Repo
@@ -243,6 +234,8 @@ flowchart TD;
     O-->P("GH-Wiki")
 ```
 
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 ## Application
 
 ```mermaid
@@ -257,6 +250,15 @@ architecture-beta
     db:L -- R:server
     server0:T -- B:server
     disk2:T -- B:server
+```
+
+## DevOps
+
+```mermaid
+pie title me
+         "ideas" : 90
+         "time for realizations" : 7
+         "money for realizations" : 3
 ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
