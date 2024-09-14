@@ -226,17 +226,20 @@ block-beta
 ```mermaid
 flowchart TD;
     A[Workflow]-. parameter .->B[[callable Workflow]]
-    A[Workflow]-. parameter .->C[[callable Workflow]]
-    A[Workflow]-->D[["GH-Pages"]]
-    A[Workflow]-->E[["GH-Wiki"]]
-    B-- parameter -->F[Action]
-    C-- parameter -->G[Action]
-    D-->H[Action]
-    E-->I[Action]
+    B-- parameter -->C[Action]
+    C-->D(README)
+
+    A[Workflow]-. parameter .->E[[callable Workflow]]
+    E-- parameter -->F[Action]
     F-->J(README)
-    G-->K(Markdown files);
-    H-->K(Page);
-    I-->L(Wiki);
+
+    A[Workflow]-->K[[Workflow]]
+    K-->L[Action]
+    L-->M("GH-Pages")
+
+    A[Workflow]-->N[[Workflow]]
+    N-->O[Action]
+    O-->P("GH-Wiki")
 ```
 
 <hr>
@@ -260,7 +263,7 @@ architecture-beta
     service db(database)[Database] in api
     service server0(server)[Webserver] in api
     service disk2(disk)[Storage] in api
-    service server(server)["App-Server"] in api
+    service server(server)[Appserver] in api
 
     db:L -- R:server
     server0:T -- B:server
