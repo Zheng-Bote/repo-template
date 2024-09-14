@@ -14,7 +14,6 @@
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-
 **Table of Contents**
 
 - [Description](#description)
@@ -26,11 +25,8 @@
 - [Usage/Examples](#usageexamples)
 - [API Reference](#api-reference)
   - [Parameters](#parameters)
-  - [Inputs](#inputs)
-  - [Outputs](#outputs)
 - [Documentation](#documentation)
   - [Github Page](#github-page)
-  - [Screenshots](#screenshots)
 - [Authors and License](#authors-and-license)
   - [License](#license)
   - [Authors](#authors)
