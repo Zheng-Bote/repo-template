@@ -14,10 +14,11 @@
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
 **Table of Contents**
 
 - [Description](#description)
-    - [Features](#features)
+  - [Features](#features)
   - [Status](#status)
     - [Repo](#repo)
     - [Readme](#readme)
@@ -108,6 +109,7 @@ bla bla ... with a little help from my friends
 ## folder structure
 
 <!-- readme-tree start -->
+
 ```
 .
 ├── .github
@@ -135,6 +137,7 @@ bla bla ... with a little help from my friends
 
 5 directories, 17 files
 ```
+
 <!-- readme-tree end -->
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -224,6 +227,24 @@ block-beta
 flowchart TD;
     A[Workflow]-. parameter .->B[[callable Workflow]]
     A[Workflow]-. parameter .->C[[callable Workflow]]
+    A[Workflow]-->D[["GH-Pages"]]
+    A[Workflow]-->E[["GH-Wiki"]]
+    B-- parameter -->F[Action]
+    C-- parameter -->G[Action]
+    D-->H[Action]
+    E-->I[Action]
+    F-->J(README)
+    G-->K(Markdown files);
+    H-->K(Page);
+    I-->L(Wiki);
+```
+
+<hr>
+
+```mermaid
+flowchart TD;
+    A[Workflow]-. parameter .->B[[callable Workflow]]
+    A[Workflow]-. parameter .->C[[callable Workflow]]
     B-- parameter -->D[Action]
     C-- parameter -->E[Action]
     D-->F(README)
@@ -239,7 +260,7 @@ architecture-beta
     service db(database)[Database] in api
     service server0(server)[Webserver] in api
     service disk2(disk)[Storage] in api
-    service server(server)[Appl-Server] in api
+    service server(server)["App-Server"] in api
 
     db:L -- R:server
     server0:T -- B:server
