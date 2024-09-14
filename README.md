@@ -14,12 +14,14 @@
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-
 **Table of Contents**
 
 - [Description](#description)
-  - [Features](#features)
+    - [Features](#features)
   - [Status](#status)
+    - [Repo](#repo)
+    - [Readme](#readme)
+    - [Markdown files](#markdown-files)
 - [Installation](#installation)
   - [Dependencies](#dependencies)
   - [folder structure](#folder-structure)
@@ -100,7 +102,6 @@ bla bla
 ## folder structure
 
 <!-- readme-tree start -->
-
 ```
 .
 ├── .github
@@ -118,6 +119,7 @@ bla bla
 │       ├── repo-create_doctoc.yml_
 │       ├── repo-create_doctoc_md.yml
 │       └── repo-create_tree_readme.yml
+├── LICENSE
 ├── LICENSE_Apache-2
 ├── LICENSE_GPL-2
 ├── LICENSE_GPL-3
@@ -125,9 +127,8 @@ bla bla
 ├── README.md
 └── tree.bak
 
-5 directories, 16 files
+5 directories, 17 files
 ```
-
 <!-- readme-tree end -->
 
 <p align="right">(<a href="#top">back to top</a>)</p>
