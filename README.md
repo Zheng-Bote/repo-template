@@ -224,7 +224,7 @@ flowchart TD;
 
 ## License
 
-_other licenses see files `LICENSE_<name>`\_
+**_other licenses see files `LICENSE_<name>`_**
 
 ### MIT License
 
