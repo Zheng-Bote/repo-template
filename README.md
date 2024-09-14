@@ -14,10 +14,11 @@
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
 **Table of Contents**
 
 - [Description](#description)
-    - [Features](#features)
+  - [Features](#features)
   - [Status](#status)
     - [Repo](#repo)
     - [Readme](#readme)
@@ -57,7 +58,8 @@ Repo template with README-template and some Github workflows and Github actions.
 
 - \[x] works as designed
 - \[ ] no bugs
-- \[X] MIT license
+- \[x] MIT license
+- \[x] some more or less usefull Github Actions
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -80,6 +82,8 @@ Repo template with README-template and some Github workflows and Github actions.
 
 ### Markdown files
 
+[![Repo - create TOC of Markdown files](https://github.com/Zheng-Bote/repo-template/actions/workflows/repo-create_doctoc_md.yml/badge.svg)](https://github.com/Zheng-Bote/repo-template/actions/workflows/repo-create_doctoc_md.yml)
+
 create ToC in Markdown files in folders
 
 - .github/actions/\*\*
@@ -87,21 +91,20 @@ create ToC in Markdown files in folders
 - dist/\*\*
 - docs/\*\*
 
-[![Repo - create TOC of Markdown files](https://github.com/Zheng-Bote/repo-template/actions/workflows/repo-create_doctoc_md.yml/badge.svg)](https://github.com/Zheng-Bote/repo-template/actions/workflows/repo-create_doctoc_md.yml)
-
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 # Installation
 
-bla bla
+bla bla ... everything easy and green with No Code/Low code and without any costs
 
 ## Dependencies
 
-bla bla
+bla bla ... with a little help from my friends
 
 ## folder structure
 
 <!-- readme-tree start -->
+
 ```
 .
 ├── .github
@@ -129,13 +132,16 @@ bla bla
 
 5 directories, 17 files
 ```
+
 <!-- readme-tree end -->
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Usage/Examples
 
-```html
+bla bla ... usage is intuitive and runs mostly automatically with no needs of any knowledge
+
+```HTML
 <mark> under construction </mark>
 ```
 
@@ -184,6 +190,16 @@ flowchart TD;
     C-->D[Markdown files];
 ```
 
+```mermaid
+flowchart TD;
+    A[Workflow]-. parameter .->B[[callable Workflow]]
+    A[Workflow]-. parameter .->C[[callable Workflow]]
+    B-- parameter -->D[Action]
+    C-- parameter -->E[Action]
+    D-->F(README)
+    E-->G(Markdown files);
+```
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Github Page
@@ -221,7 +237,7 @@ flowchart TD;
 
 ## License
 
-**_other licenses see files `LICENSE_<name>`_**
+**_other licenses see files `LICENSE_<name>`\_**
 
 ### MIT License
 
@@ -229,7 +245,7 @@ flowchart TD;
 
 MIT License
 
-Copyright (c) \[year] \[fullname]
+Copyright (c) 2024 ZHENG Robert
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
