@@ -197,7 +197,7 @@ block-beta
       id2[["actions"]]
     end
   end
-  docs id3[["dist"]] src
+  "docs (only text)" dist src
 ```
 
 <hr>
