@@ -191,7 +191,7 @@ block-beta
     columns 4
     id1[[".github Actions / Workflows"]]
     block:group1:1
-      columns:2
+      columns 2
       actions workflow
     end
     id2["docs"]
