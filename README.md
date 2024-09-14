@@ -14,26 +14,30 @@
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-
 **Table of Contents**
 
 - [Description](#description)
-  - [Features](#features)
-- [Status](#status)
+    - [Features](#features)
+  - [Status](#status)
 - [Installation](#installation)
   - [Dependencies](#dependencies)
   - [folder structure](#folder-structure)
-- [Usage/Examples](#usageexamples)
+  - [Usage/Examples](#usageexamples)
 - [API Reference](#api-reference)
+  - [Inputs](#inputs)
+  - [Outputs](#outputs)
   - [Parameters](#parameters)
 - [Documentation](#documentation)
+  - [Architecture / Deployment-View](#architecture--deployment-view)
   - [Github Page](#github-page)
-- [Screenshots](#screenshots)
+  - [Github Wiki](#github-wiki)
+  - [Screenshots](#screenshots)
 - [Authors and License](#authors-and-license)
   - [License](#license)
-    - [MIT](#mit)
+    - [MIT License](#mit-license)
+    - [Apache License](#apache-license)
   - [Authors](#authors)
-- [Code Contributors](#code-contributors)
+    - [Code Contributors](#code-contributors)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
