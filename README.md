@@ -186,6 +186,19 @@ see also: <https://linktodocumentation>
 ```mermaid
 block-beta
   columns 4
+  Repo:2
+  block:group1:1
+    columns 2
+      id1[["actions"]]
+      id2[["workflows"]]
+  end
+  docs dist src
+```
+
+<hr>
+```mermaid
+block-beta
+  columns 4
   Repo:3
   block:group1:2
     columns 2
