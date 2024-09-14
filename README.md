@@ -14,10 +14,11 @@
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
 **Table of Contents**
 
 - [Description](#description)
-    - [Features](#features)
+  - [Features](#features)
   - [Status](#status)
 - [Installation](#installation)
   - [Dependencies](#dependencies)
@@ -99,6 +100,7 @@ bla bla
 ## folder structure
 
 <!-- readme-tree start -->
+
 ```
 .
 ├── .github
@@ -125,6 +127,7 @@ bla bla
 
 5 directories, 16 files
 ```
+
 <!-- readme-tree end -->
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -132,22 +135,30 @@ bla bla
 ## Usage/Examples
 
 ```html
-<mark> under constrcution </mark>
+<mark> under construction </mark>
 ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 # API Reference
 
+<hr>
+
 ![GHA](https://img.shields.io/badge/Github-Action-black?logo=githubactions)
+
+_Inputs/Outputs will be filled automatically by `.github/workflows/repo-actions_docu.yml`_
 
 ## Inputs
 
 ## Outputs
 
+<hr>
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 ## Parameters
 
-**Workflow**
+**Workflow or program**
 
 | Parameter    | Type     | Description                          |
 | :----------- | :------- | :----------------------------------- |
@@ -167,9 +178,12 @@ see also: <https://linktodocumentation>
 
 ```mermaid
 graph TD;
-    Workflow-. parameter .->Callable_Workflow;
-    Callable_Workflow-- parameter -->Action;
+    A(Workflow)-. parameter .->B(Callable_Workflow);
+    B-- parameter -->C(Action);
+    C-->D[README|Markdown files];
 ```
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Github Page
 
