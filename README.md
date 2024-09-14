@@ -187,9 +187,9 @@ see also: <https://linktodocumentation>
 ```mermaid
 block-beta
   columns 4
-  Repo:3
-  block:group1:1
-    columns 2
+  Repo:4
+  block:group1:2
+    columns 1
       id1[["actions"]]
       id2[["workflows"]]
   end
