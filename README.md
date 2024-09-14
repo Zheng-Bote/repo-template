@@ -200,7 +200,7 @@ block-beta
   docs dist src
   block:group3:4
     %% columns auto (default)
-    pages wiki
+    A["gh-pages"] B["gh-wiki"]
   end
 ```
 
