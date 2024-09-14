@@ -1,5 +1,5 @@
 <div id="top" align="center">
-<h1>GH Repo README Template</h1>
+<h1>GH Repo Template</h1>
 
 <p>Template for new Github repos</p>
 
@@ -56,9 +56,9 @@ Repo template with README-template and some Github workflows and Github actions.
 
 ### Features
 
+- \[x] MIT license
 - \[x] works as designed
 - \[ ] no bugs
-- \[x] MIT license
 - \[x] some more or less usefull Github Actions
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -184,10 +184,14 @@ see also: <https://linktodocumentation>
 ## Architecture / Deployment-View
 
 ```mermaid
-flowchart TD;
-    A(Workflow)-. parameter .->B(Callable_Workflow)
-    B-- parameter -->C(Action)
-    C-->D[Markdown files];
+block-beta
+  columns 4
+  Repo:4
+  .github docs dist src
+  block:group1:2
+    columns 2
+    actions workflows
+  end
 ```
 
 ```mermaid
