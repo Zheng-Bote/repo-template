@@ -54,38 +54,70 @@
 
 # Description
 
+![QT](https://img.shields.io/badge/Community-6-41CD52?logo=qt)
+![CXX](https://img.shields.io/badge/C++-20-blue?logo=cplusplus)
+![Rust](https://img.shields.io/badge/Rust-Rocket-lightgrey?logo=rust)
+![Expressif](https://img.shields.io/badge/ESP-32-E7352C?logo=espressif)
 ![GHA](https://img.shields.io/badge/Github-Action-black?logo=githubactions)
 ![Node](https://img.shields.io/badge/Node-20-blue?logo=tsnode)
+![Angular](https://img.shields.io/badge/Angular-18+-red?logo=angular)
+![Vue](https://img.shields.io/badge/Vue-3+-4FC08D?logo=vuedotjs)
+![HTML5](https://img.shields.io/badge/HTML-5+-E34F26?logo=html5)
+![Typescript](https://img.shields.io/badge/TypeScript-5+-3178C6?logo=typescript)
 
 Repo template with README-template and some Github workflows and Github actions.
 
 ### Features
 
-- \[x] MIT license
+- \[ ] advanced-super-extra-special feature xyz
+
+  <br>
+  
+- \[x] OSS and license
 - \[x] works as designed
 - \[ ] no bugs
-- \[x] some more or less usefull Github Actions
+
+<br>
+
+- \[x] some more or less usefull Github Actions for GH-repo, GH-pages, GH-wiki, CI/CD-Pipelines
+- \[ ] Packagemanager
+- \[ ] Installation routine
+- \[ ] portable application 
+
+<br>
+
+- \[ ] runs on DOS/Windows
+- \[ ] runs on MacOS
+- \[ ] runs on Linux
+- \[ ] runs on iOS
+- \[ ] runs on Android
+- \[ ] runs on HarmonyOS
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Status
 
-### Repo
+### Application / Tool
 
+![Status](https://img.shields.io/badge/Status-under_construction-red)
 ![Status](https://img.shields.io/badge/Status-works-green)
 ![GitHub Release Date](https://img.shields.io/github/release-date/Zheng-Bote/repo-template)
 
 ![GitHub Issues](https://img.shields.io/github/issues/Zheng-Bote/repo-template)
 ![GitHub Pull Requests](https://img.shields.io/github/issues-pr/Zheng-Bote/repo-template)
 
-### Readme
+### Documentation
 
+_see also:_ [Application Documentation](#documentation) 
+
+#### README
 [![Repo - create Repo-Tree in README.md](https://github.com/Zheng-Bote/repo-template/actions/workflows/repo-create_tree_readme.yml/badge.svg)](https://github.com/Zheng-Bote/repo-template/actions/workflows/repo-create_tree_readme.yml)
 [![Repo - add Actions In/Out to README](https://github.com/Zheng-Bote/repo-template/actions/workflows/repo-actions_docu.yml/badge.svg)](https://github.com/Zheng-Bote/repo-template/actions/workflows/repo-actions_docu.yml)
 
 [![Repo - update Readme](https://github.com/Zheng-Bote/repo-template/actions/workflows/repo-call_Readme.yml/badge.svg)](https://github.com/Zheng-Bote/repo-template/actions/workflows/repo-call_Readme.yml)
 
-### Markdown files
+#### other Markdown files
 
 [![Repo - create TOC of Markdown files](https://github.com/Zheng-Bote/repo-template/actions/workflows/repo-create_doctoc_md.yml/badge.svg)](https://github.com/Zheng-Bote/repo-template/actions/workflows/repo-create_doctoc_md.yml)
 
@@ -141,7 +173,7 @@ bla bla ... with a little help from my friends
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-## Usage/Examples
+## Usage/Examples/Tests
 
 bla bla ... usage is intuitive and runs mostly automatically with no needs of any knowledge
 
