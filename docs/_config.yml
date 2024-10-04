@@ -2,7 +2,7 @@ title: repo-template
 author:
   name: ZHENG Robert
   #email: no.spam@hotmail.dev
-description: templates for GH-Pages
+description: Template for new Github repositories (GH-Pages)
 
 remote_theme: jekyll/minima
 #theme: minima
@@ -23,7 +23,7 @@ author:
   #email: no.spam@hotmail.dev
 
 page_created: 2024-10-04
-page_url: https://zheng-bote.github.io/repo-template
+page_url: https://zheng-bote.github.io/repo-template/
 page_desc: template for GH-Pages
 
 header_pages:
