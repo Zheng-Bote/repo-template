@@ -5,18 +5,15 @@ html {
 
 .breadcrumbs {
   width: 800px;
-  /*background-color: aqua;*/
   margin: auto;
 }
 
 ul.breadcrumb {
-  /*padding: 10px 16px; */
   list-style: none;
 }
 
 ul.breadcrumb li {
   display: inline;
-  /*font-size: 18px; */
 }
 ul.breadcrumb li + li:before {
   padding: 8px;
@@ -34,11 +31,8 @@ ul.breadcrumb li a:hover {
   padding: 2px;
   width: fit-content;
 
-  /*background-color: #ff00ff */
-  /* background: var(--minima-border-color-03);*/
-  /*border: 1px solid var(--minima-border-color-01);*/
   border-radius: 5px;
-  background-color: var(--minima-border-color-03);
+  background-color: var(--minima-border-color-01);
 }
 
 article:not(:last-child),
