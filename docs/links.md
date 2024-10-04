@@ -2,5 +2,5 @@
 
 <!-- DOCTOC SKIP -->
 
-- Github: [rust_app-serv_photo-gallery](https://github.com/Zheng-Bote/rust_app-serv_photo-gallery)
+- Github: [repo-template](https://github.com/Zheng-Bote/repo-template)
 - Author: [Zheng Robert](https://www.robert.hase-zheng.net)
