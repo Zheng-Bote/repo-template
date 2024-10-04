@@ -1,20 +1,8 @@
-# Hello World 你好世界 Hola Mundo Привет мир Hallo Welt!
-
-# Brief
-
-This is the GH-Page of the "template-repo"
-
-<hr>
-
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**
-
-- [Description](#description)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-<hr>
+<!-- DOCTOC SKIP -->
+<div align="center">
+<h2>Hello World 你好世界 Hola Mundo Привет мир Hallo Welt!</h2>
+<p>This is the GH-Page of the "template-repo"</p>
+</div>
 
 # Description
 
