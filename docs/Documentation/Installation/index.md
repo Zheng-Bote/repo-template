@@ -1,4 +1,4 @@
-# Architecture
+# Installation
 
 
 ## Categories
