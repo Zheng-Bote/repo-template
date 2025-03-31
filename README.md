@@ -65,6 +65,7 @@
 ![Vue](https://img.shields.io/badge/Vue-3+-4FC08D?logo=vuedotjs)
 ![HTML5](https://img.shields.io/badge/HTML-5+-E34F26?logo=html5)
 ![Typescript](https://img.shields.io/badge/TypeScript-5+-3178C6?logo=typescript)
+![Lit.js](https://img.shields.io/badge/Lit.js-324FFF?logo=lit)
 
 Repo template with README-template and some Github workflows and Github actions.
 
