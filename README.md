@@ -6,7 +6,7 @@
 [Report Issue](https://github.com/Zheng-Bote/repo-template/issues) [Request Feature](https://github.com/Zheng-Bote/repo-template/pulls)
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
-![GitHub Created At](https://img.shields.io/github/created-at/Zheng-Bote/repo-template)
+![GitHub Release Date](https://img.shields.io/github/release-date/Zheng-Bote/repo-template)
 
 </div>
 
@@ -66,6 +66,7 @@
 ![HTML5](https://img.shields.io/badge/HTML-5+-E34F26?logo=html5)
 ![Typescript](https://img.shields.io/badge/TypeScript-5+-3178C6?logo=typescript)
 ![Lit.js](https://img.shields.io/badge/Lit.js-324FFF?logo=lit)
+![CSS3](https://img.shields.io/badge/CSS3-663399?logo=css3)
 
 Repo template with README-template and some Github workflows and Github actions.
 
@@ -102,9 +103,11 @@ Repo template with README-template and some Github workflows and Github actions.
 
 ### Application / Tool
 
-![Status](https://img.shields.io/badge/Status-under_construction-red)
-![Status](https://img.shields.io/badge/Status-works-green)
+![GitHub Created At](https://img.shields.io/github/created-at/Zheng-Bote/repo-template)
 ![GitHub Release Date](https://img.shields.io/github/release-date/Zheng-Bote/repo-template)
+
+![Status](https://img.shields.io/badge/Status-under_construction-red)
+![Status](https://img.shields.io/badge/Status-works_as_designed-green)
 
 ![GitHub Issues](https://img.shields.io/github/issues/Zheng-Bote/repo-template)
 ![GitHub Pull Requests](https://img.shields.io/github/issues-pr/Zheng-Bote/repo-template)
