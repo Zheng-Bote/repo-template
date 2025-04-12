@@ -65,8 +65,9 @@
 ![Vue](https://img.shields.io/badge/Vue-3+-4FC08D?logo=vuedotjs)
 ![HTML5](https://img.shields.io/badge/HTML-5+-E34F26?logo=html5)
 ![Typescript](https://img.shields.io/badge/TypeScript-5+-3178C6?logo=typescript)
+![Svelte.js](https://img.shields.io/badge/Svelte-5-324FFF?logo=svelte)
 ![Lit.js](https://img.shields.io/badge/Lit.js-324FFF?logo=lit)
-![CSS3](https://img.shields.io/badge/CSS3-663399?logo=css3)
+![CSS3](https://img.shields.io/badge/CSS-663399?logo=css3)
 
 Repo template with README-template and some Github workflows and Github actions.
 
@@ -100,6 +101,8 @@ Repo template with README-template and some Github workflows and Github actions.
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Status
+
+:arrow_right: <mark>:warning: still under construction :warning:</mark> :arrow_left:
 
 ### Application / Tool
 
