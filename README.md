@@ -18,8 +18,7 @@
 
 - [Description](#description)
     - [Features](#features)
-  - [Status](#status)
-    - [Application / Tool](#application--tool)
+- [Status](#status)
     - [Documentation](#documentation)
       - [README](#readme)
       - [other Markdown files](#other-markdown-files)
